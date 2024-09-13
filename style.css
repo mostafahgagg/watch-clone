@@ -1,0 +1,255 @@
+    /* start navbar */
+.navbar{
+    box-shadow: 1px 1px 13PX 1px ;
+    position:fixed;
+    z-index: 10;
+    width: 100%;
+
+
+}
+
+
+.nav1{
+display: flex;
+justify-content:end;
+margin-right: 70px;
+
+}
+.logo{
+    margin-left: 150px;
+}
+.input2:hover{
+    background:  rgba(255, 68, 0, 0.501) ;
+
+}
+/* <!-- end navbar --> */
+
+/* <!-- start section on --> */
+.sec1{
+    background-color: rgb(230, 228, 228);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sec1_header{
+    width: 550px;
+    margin-right : 320px;
+
+}
+.sec1_header h1 {
+    font-size: 70px;
+}
+.input1 {
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 0px ;
+    background-color: orangered;
+    color: white;
+    border: none;
+}
+.input1:hover{
+    padding: 10px 40px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 0px 0px ;
+    background: rgb(120, 115, 115);
+    color: white;
+ 
+
+}
+/* <!-- end section on --> */
+
+
+/* <!-- start section tow --> */
+.sec2{
+    display: flex;
+    /* height: 600px;
+    width: 300px; */
+    margin: 30px;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+
+}
+.h1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    position: absolute;
+    font-family: 50;
+ 
+}
+
+.sec2 div {
+    margin: 10px;
+    margin-top: 60px;
+    margin-right: 50px;
+}
+
+.sec2 H2 {
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.sec2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+.sec2 img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: opacity 0.5s, transform 0.8s;
+}
+.sec2 img:hover{
+    transform: scale(1.1);
+
+}
+/* <!-- end section tow --> */
+
+/*  <!-- start section three --> */
+.sec3{
+    display: flex;
+    justify-content:space-around;
+    height: 100vh;
+    box-sizing: border-box;
+    align-items: center;
+}
+.sec3 div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100%;
+    
+}
+.img2{
+    flex-direction: column;
+
+
+}
+.img2 img {
+    margin: 12px;
+}
+.sec3 img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: opacity 0.5s, transform 0.8s;
+}
+.sec3 img:hover{
+    transform: scale(1.1);
+
+}
+
+/*  <!-- end section three --> */
+/*  <!-- start section four -- --> */
+.sec4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.sec4 div {
+ margin: 10px;
+}
+.sec4 div h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 div p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sec4 img {
+    max-width: 100%;
+    height: auto;
+    transform: scale(1);
+    transition: opacity 0.5s, transform 0.8s;
+    border-bottom: 2px solid orangered;
+}
+.sec4 img:hover{
+    transform: scale(1.1);
+    border-bottom: 50px solid rgba(255, 68, 0, 0.848);
+}
+.heahing2{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 700px;
+}
+.heahing2 h1 {
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif, Courier, monospace ;
+}
+
+.sec6{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    box-sizing: border-box;
+    
+}
+.sec6_1{
+    margin-left:150px ;
+}
+.img6{
+    margin-left: 100px;
+}
+.sec7{
+    margin-left: 150px;
+    background-color: red;
+    color: white;
+    width: 80%;
+    height: 250px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sec7 div {
+    margin: 20px;
+}
+.sec7 div i {
+    font-size: 40px;
+}
+
+.footer{
+    color: black;
+    margin-top: 70px;
+    margin-left: 70px;
+    
+}
+.footer li {
+    margin: 20px;
+}
+.foot_logo img {
+    margin-bottom: 50px;
+}
+.end1{
+    width: 90%;
+    display: flex;
+    justify-content: space-between
+    
+}
+.end2icon i {
+    font-size: large;
+    margin:15px;
+    margin-left: px;
+}
+.name12{
+    color: red;
+    font-size: 20px;
+}
